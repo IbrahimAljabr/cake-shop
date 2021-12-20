@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Kaushan Script', cursive;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  background-attachment: fixed;
+  background-image: url('./img/headerBcg.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-menu {
+  height: 0;
+  overflow: hidden;
+}
+.icon {
+  padding-right: 0.9375rem;
+  width: 2.1875rem;
+}
+header {
+  background-color: white;
+  height: 8vh;
+  padding: 1.2rem 0.8rem;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+}
+.m-nav {
+  display: none;
+}
+.nav-in {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.ul-nav {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-width: 75%;
+}
+.nav-li {
+  padding-left: 1.25rem;
+}
+.nav-li a {
+  color: #ef7998;
+  font-size: 1.5625rem;
+}
+.nav-buy {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 20%;
+}
+.call-us {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 14.4px;
+  font-weight: bold;
+  justify-content: center;
+}
+.cart {
+  align-items: center;
+  border-radius: 0.3125rem;
+  border: 0.0625rem black solid;
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: bold;
+  justify-content: center;
+  padding: 0.625rem;
+}
+.cart div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.cart div p {
+  margin-right: 1.25rem;
+}
+.cart:hover {
+  background-color: #ef7998;
+  color: white;
+  border: none;
+}
+
+button {
+  background-color: unset;
+  color: black;
+}
+.welcome-text {
+  font-size: 2.8rem;
+  color: white;
+}
+.welcome-grandma {
+  font-size: 67.2px;
+  color: #ef7998;
+}
+.btn-explore {
+  border-radius: 0.1875rem;
+  border: 0.1875rem solid black;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.btn-explore:hover,
+.about-us-text button:hover,
+.btn-search:hover {
+  background-color: black;
+  color: #ef7998;
+  cursor: pointer;
+  transition: 0.2s;
+}

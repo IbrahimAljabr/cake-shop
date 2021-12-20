@@ -1,0 +1,76 @@
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 0.5rem 1.5rem;
+    position: relative;
+    z-index: 15;
+  }
+  nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-in {
+    display: none;
+  }
+  .m-nav {
+    border: none;
+    color: #ef7998;
+    cursor: pointer;
+    display: block;
+    font-size: 2.4rem;
+  }
+
+  .m-menu {
+    background-color: white;
+    color: #ef7998;
+    font-size: 1.6rem;
+    height: 0;
+    overflow: hidden;
+    padding: 0.3rem 1rem 0 1rem;
+    position: relative;
+    transition: 1s;
+    width: 100%;
+  }
+  .m-menu ul li {
+    padding: 0.4rem;
+  }
+
+  .welcome-text {
+    font-size: 2.5rem;
+    line-height: 4rem;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  .search-bar input {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+  }
+  .about-us {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .about-us-text {
+    padding: 3rem 3rem 1rem 3rem;
+    width: 85%;
+  }
+  .about-img {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+  }
+  .border {
+    height: 35vh;
+    margin: 2rem 0;
+    width: 75%;
+  }
+  .border div {
+    height: 20rem;
+    width: 100%;
+  }
+  .btn-cate {
+    width: 85%;
+  }
+}
